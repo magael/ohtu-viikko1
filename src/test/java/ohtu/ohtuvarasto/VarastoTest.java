@@ -39,7 +39,7 @@ public class VarastoTest {
     @Test
     public void uudellaVarastollaOikeaSaldo() {
         Varasto v = new Varasto(12, 5);
-        assertEquals(5, v.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, v.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
