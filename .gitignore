@@ -1,12 +1,11 @@
 *.tmp
 build/
-.gradle/
-.nb-gradle/
 
 **/nbproject/private/
 nbbuild/
 dist/
 nbdist/
+.nb-gradle/
 
 .gradle
 /build/
