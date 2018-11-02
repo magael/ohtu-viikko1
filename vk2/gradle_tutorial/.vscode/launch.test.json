@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "gradle_tutorial",
+                "projectName": "gradle_tutorial",
+                "workingDirectory": "c:\\Users\\User\\ohtu\\ohtu-viikko1\\vk2\\gradle_tutorial",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "gradle_tutorial",
+                "projectName": "gradle_tutorial",
+                "workingDirectory": "c:\\Users\\User\\ohtu\\ohtu-viikko1\\vk2\\gradle_tutorial",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
