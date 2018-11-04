@@ -3,10 +3,9 @@ build/
 
 .vscode/
 
-.classpath
-.project
-.settings/
-bin/
+# .classpath
+# .project
+# .settings/
 
 **/nbproject/
 nbbuild/
