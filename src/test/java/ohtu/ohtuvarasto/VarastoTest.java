@@ -128,6 +128,6 @@ public class VarastoTest {
     @Test
     public void negatiivinenSaldoNollataan() {
         Varasto v = new Varasto(12, -1);
-        assertEquals(v.getSaldo(), 0, vertailuTarkkuus);
+        assertEquals(0, v.getSaldo(), vertailuTarkkuus);
     }
 }

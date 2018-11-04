@@ -52,3 +52,7 @@ jacocoTestReport {
         })
     }
 }
+
+// checkstyle {
+//     toolVersion = "6.11"
+// }

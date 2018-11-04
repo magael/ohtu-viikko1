@@ -1,7 +1,14 @@
 *.tmp
 build/
 
-**/nbproject/private/
+.vscode/
+
+.classpath
+.project
+.settings/
+bin/
+
+**/nbproject/
 nbbuild/
 dist/
 nbdist/
