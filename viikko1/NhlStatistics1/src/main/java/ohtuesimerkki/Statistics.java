@@ -36,13 +36,14 @@ public class Statistics {
     }
 
     public List<Player> topScorers(int howMany) {
+        int count = howMany;
         Collections.sort(players);
         ArrayList<Player> topScorers = new ArrayList<Player>();
         Iterator<Player> playerIterator = players.iterator();
         
-        while (howMany>=0) {
+        while (count>=0) {
             topScorers.add( playerIterator.next() );            
-            howMany--;
+            count--;
         }
         
         return topScorers;
